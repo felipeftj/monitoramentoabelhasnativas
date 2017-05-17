@@ -1,0 +1,33 @@
+
+1 - modificar intervalo de medidas: atual(2s), futuro(60s)
+// 1d/24h/60min/60s = 86400s por dia, a cada 02s, 43k2 medidas por dia
+// 1d/24h/60min/60s = 86400s por dia, a cada 60s, 1440 medidas por dia
+
+2 - modificar o tipo de dado da temperatura: atual(texto), futuro(float)
+// texto, comprimento variável
+// float, -1.79E + 308 até 1.79e +308
+
+3 - modificar o tipo de dado da humidade: atual(texto), futuro(TinyInt)
+// texto, comprimento variável
+// TinyInt, 0 até 256
+
+4 - mudar de local o protoboard: atual(junto a regua de tomadas), futuro(caixa mais vazia)
+
+5 - substituir a protoboard por uma placa de circuito impresso
+
+6 - numerar as caixas
+
+7 - definir os gráficos, mínimo e máximos
+
+8 - modificar o ambiente de hospedagem: atual(hostinger), futuro(amazon)
+
+9 - caso as medidas de temperatura, float, fiquem no gráfico com muitas casas após a virgula, alternativas:
+	php:
+
+		$texo = 1.123456;
+		echo $texto;
+    
+		$float= number_format($texto, 2, '.', '');
+		echo $float;
+	c:
+		%.2f

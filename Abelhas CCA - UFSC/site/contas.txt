@@ -1,0 +1,14 @@
+
+// ---------------------------------------
+// Servidor de email
+
+Gmail:
+	conta: abelhascca@gmail.com
+	senha: 16021987q
+
+// ---------------------------------------
+// Servidor web
+
+Hostinger:
+	conta: abelhascca.esy.es
+	senha: 16021987q
